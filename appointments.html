@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>Appointment Scheduling</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<div class="back">
+    <a href="patient system.html">Back</a>
+    <script src="script3.js"></script>
+</div>
+<body>
+    <header>
+        <h1>Appointment Scheduler</h1>
+    </header>
+    <div class="container">
+        <section id="schedule-appointment">
+            <h2>Schedule New Appointment</h2>
+            <form id="appointment-form">
+                <label for="appointment-date">Date:</label>
+                <input type="date" id="appointment-date" required>
+                <label for="appointment-time">Time:</label>
+                <input type="time" id="appointment-time" required>              
+                <label for="appointment-details">Details:</label>
+                <textarea id="appointment-details" required></textarea>               
+                <button class="sub" type="submit">Schedule Appointment</button>
+            </form>
+        </section>
+    </div>
+    <div class="container">
+        <section id="saved-appointments">
+            <h2>Saved Appointments</h2>
+            <ul id="appointments-list"></ul>
+            <button class="cancel">Cancel Appointment</button>
+        </section>
+    </div>
+</body>
+<marquee>Copyright@2025 OnePieceMedicalCentre</marquee>
+</html>
